@@ -1,4 +1,8 @@
 def delivery_list(day, file):
+    """Given a number and a text file of deliveries.
+
+    Will generate a list of the quantity of items delivered
+    and total cost."""
 
     #Uses the day parameter to display which day
     print(f"Day {day}")
